@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+</head>
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: grid;
+        place-content: center;
+        font-family: sans-serif;
+    }
+    form{
+        height: 95vh;
+        width: 60vw;
+        background-color: rgb(247, 189, 113);
+        display: grid;
+        place-content: center;
+    }
+
+    #option{
+        height: 120px;
+    }
+
+</style>
+
+
+
+
+
+<body>
+    <form id="survey-form">
+
+    <h1 id="tittle">iphone model purchase</h1>
+
+    <p id="description">full details bellow for complete your tesla order</p>
+
+    <div id="name-label">
+     <label for="name">Name</label>
+     <input type="text"  id="name" placeholder="name" required>
+    </div>
+     
+    <div id="email-label">
+     <label for="email">Name</label>
+     <input type="text"  id="email" placeholder="email" required>
+   </div>
+
+<div id="number-label">
+    <label for="number" id="number-label" class="labels">  Age-- </label>
+    <input id="number" class="input" min="10" max="120" type="number" placeholder="age">
+</div>
+
+
+<div id="option">
+<p id="description">select your iphone color</p>
+
+<select id="dropdown">
+<option>red</option>
+<option>black</option>
+<option>blue</option>
+<option>grey</option>
+</select>
+  
+</div>
+
+<div id="radio">
+    <p id="description">payment method</p>
+
+    <label for="5"> offline payment</label>
+    <input type="radio" id="5" name="radio-buttons" ><br>
+
+    <label for="6">online payment</label>
+    <input type="radio" id="6" name="radio-buttons" >
+
+</div>
+
+<div id="checkbox">
+    <p id="description">models</p>
+<div>
+<labal for="1">The ultimate iPhone13 pro</labal>
+<input type="checkbox" id="1" value="From ₹119900.00*">
+</div>
+
+<div>
+<labal for="1">The ultimate iPhone13</labal>
+<input type="checkbox" id="1" value="From ₹113900.00*">
+</div>
+
+<div>
+<labal for="1">The ultimate iPhone 12 </labal>
+<input type="checkbox" id="1" value="From ₹139900.00*">
+</div>
+
+</div>
+
+<textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+
+
+
+
+</form>
+</body>
+</html>
